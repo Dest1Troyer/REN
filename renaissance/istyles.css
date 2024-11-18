@@ -1,10 +1,35 @@
 body{
-    margin: 0;
-    padding: 0;
     background-image: url('Renaissanceback.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100vh;
 }
-  
+.navback{
+    margin-top: 3vh;
+    position: relative;
+}
+.navback::before{
+    left: 2.5vw;
+    border-radius: 40px;
+    background-color: rgba(247, 241, 241, 0.769);
+    content: '';
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    
+}
+.navback::after{
+    left: 2vw;
+    z-index: -1;
+    border-radius: 30px;
+    background:linear-gradient(225deg,rgba(92, 206, 255),rgba(66, 66, 252));
+    content: '';
+    width:96%;
+    height: 130%;
+    position: absolute;
+
+    
+}
+.nav-link {
+    margin:0 1.5vw;
+    z-index: 4;
+}
