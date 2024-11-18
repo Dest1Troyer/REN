@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('Renaissanceback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+}
+  
